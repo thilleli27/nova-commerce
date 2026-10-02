@@ -1,7 +1,5 @@
 # Rapport – TP Intégration de dashboard assistée par IA
 
-> Transparence : l'analyse de la maquette (Étape 0) et le code ont été produits avec Claude Code.
-
 ## Ce que l'IA a mal fait, et pourquoi
 - **Rustines CSS** : un `!important` dans le bloc reduced-motion et des règles en double et contradictoires pour l'icône d'aide sur tablette. Elle écrit vite, empile les règles et ne se relit pas tant qu'on ne le lui demande pas.
 - **Valeur codée en dur** : la couleur du dégradé du graphique était écrite en hexadécimal dans le JS au lieu d'utiliser le token `--color-primary`. Rien dans le prompt n'interdisait de dupliquer les valeurs.
